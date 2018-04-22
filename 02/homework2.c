@@ -7,10 +7,10 @@ int main(void){
   x=1.0;
   x0=1.0;
   k=200.0;
-  r=1.0;
+  r=0.1;
 
   FILE *fp;
-  fp=fopen("output-a.txt", "w");
+  fp=fopen("output-c.txt", "w");
 
   fprintf(fp, "%d, %f\n", 0, x0);
 
